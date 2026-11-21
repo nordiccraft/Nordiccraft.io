@@ -94,13 +94,13 @@ export const ProjectPreview: React.FC<ProjectPreviewProps> = ({ type, lang }) =>
         <div className="preview-window preview-flyt" aria-hidden="true">
           <div className="mini-header">
             <span className="live-dot indigo" />
-            <span>Loop · Live Ops</span>
-            <span className="mini-chip">WCAG AA</span>
+            <span>Ops Hub · Modules</span>
+            <span className="mini-chip">AI + Teams</span>
           </div>
           <div className="flyt-grid">
             <div className="flyt-tile">
-              <span className="tile-label">{lang === 'en' ? 'Shift Exchange' : 'Vaktbørs'}</span>
-              <span className="tile-val">{lang === 'en' ? '12 open' : '12 åpne'}</span>
+              <span className="tile-label">{lang === 'en' ? 'Service Desk' : 'Sakssystem'}</span>
+              <span className="tile-val">{lang === 'en' ? '12 active' : '12 aktive'}</span>
               <div className="mini-bars">
                 <span style={{ height: '45%' }} />
                 <span style={{ height: '75%' }} />
@@ -110,9 +110,9 @@ export const ProjectPreview: React.FC<ProjectPreviewProps> = ({ type, lang }) =>
               </div>
             </div>
             <div className="flyt-tile">
-              <span className="tile-label">Puls Status</span>
+              <span className="tile-label">{lang === 'en' ? 'Shift & Ops' : 'Vakt & Drift'}</span>
               <span className="tile-val emerald">99.9%</span>
-              <span className="tile-sub">EN / NO · Dark UI</span>
+              <span className="tile-sub">SSO · ACS · PDF</span>
             </div>
           </div>
         </div>
@@ -182,7 +182,7 @@ export const ProjectPreview: React.FC<ProjectPreviewProps> = ({ type, lang }) =>
             <span className="mini-chip">60 FPS</span>
           </div>
           <div className="games-stage">
-            <div className="arcade-badge">🍌 CRAZY BANANA</div>
+            <div className="arcade-badge">🎮 KIOSK ARCADE</div>
             <div className="arcade-pills">
               <span>Arcade</span>
               <span>Learning</span>
