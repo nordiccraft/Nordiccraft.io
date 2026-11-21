@@ -26,8 +26,8 @@ export const SITE_CONFIG = {
       en: 'NORDIC SOFTWARE & PRODUCT STUDIO',
     },
     titleLine1: {
-      no: 'Presisjonsbygget programvare',
-      en: 'Precision-crafted software',
+      no: 'Presisjonsbygde løsninger',
+      en: 'Precision-crafted solutions',
     },
     titleHighlight: {
       no: 'fra kjerne til skjerm.',
